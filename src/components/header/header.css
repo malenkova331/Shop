@@ -1,0 +1,19 @@
+.Header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 75px;
+    margin: 0 auto;
+    background-color: #C0C0C0;
+    margin-bottom: 50px;
+}
+
+.HeaderButton{
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    margin: 0px 20px;
+}

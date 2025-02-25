@@ -1,0 +1,70 @@
+.Cart{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 75px;
+    right: 5%;
+    background: rgba(192, 192, 192, 0.8);
+    border: 2px solid #C0C0C0;
+    width: 20%;
+    padding: 25px 0px;
+}
+
+.TotalPrice{
+    font-size: 20px;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.Clear{
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.CartItem{
+    background-color: #C0C0C0;
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 250px;
+    border-radius: 10px;
+    padding: 25px 0px;
+}
+
+.CITitle{
+    font-size: 20px;
+}
+
+.CITotal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.CIText{
+    text-align: center;
+    margin: 5px;
+}
+
+.CIButtons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.CIButton{
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    border: none;
+    border-radius: 10px;
+    margin: 5px;
+}
